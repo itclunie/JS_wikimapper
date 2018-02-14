@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="dist/jquery-1.11.0.min.js"></script>
+        
+        <script src="dist/leaflet.js"></script>
+        <link rel="stylesheet" href="dist/leaflet.css" />
+        
+        <script src="dist/jsonp.js"></script> <!-- v 1.08 -->
+                
+        <link rel="stylesheet" href="dist/EZbutton.css">
+        <script src="dist/EZbutton.js"></script>
+        
+        <script src="dist/lodash.js"></script>
+
+        <link rel="stylesheet" href="dist/bootstrap.min.css" />
+        <script src="dist/L.Control.Sidebar.js"></script>
+        <link rel="stylesheet" href="dist/L.Control.Sidebar.css" />
+        
+        
+        <style>
+            html{
+               height: 100%;
+            }
+            body{
+               height: 100%;
+            } 
+            #map { 
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            height: 100%;
+            width: 100%;
+            background-color: lightgrey;
+            }
+
+        </style>
+        
+        <script src="dist/leaflet-wikipedia.js"></script>
+        <script src="searchControl.js"></script>
+        <script src="wiki2GeoJSON.js"></script>
+        
+    </head>
+
+    
+    <body>
+        <div id="sidebar"></div>
+        
+        <div id="map" >
+            <script> initmap(); </script>
+        </div>
+        
+        
+        <a id="downloadAnchorElem" target="_blank" style="display:none"></a>  <!-- for EZbutton-->
+        <a id="downloadCSV" target="_blank" style="display:none"></a>  
+        
+    </body>
+</html>

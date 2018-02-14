@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <script src="js/leaflet.js"></script>
+        <link rel="stylesheet" href="css/leaflet.css" />
+        
+        <script src="js/jsonp.js"></script> <!-- v 1.08 -->
+                
+        <link rel="stylesheet" href="css/EZbutton.css">
+        <script src="js/EZbutton.js"></script>
+        
+        <script src="js/lodash.js"></script>
+        
+        <script src="js/FileSaver.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <script src="js/L.Control.Sidebar.js"></script>
+        <link rel="stylesheet" href="css/L.Control.Sidebar.css" />
+        
+        
+        <style>
+            html{
+               height: 100%;
+            }
+            body{
+               height: 100%;
+            } 
+            #map { 
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            height: 100%;
+            width: 100%;
+            background-color: lightgrey;
+            }
+
+        </style>
+        
+        <script src="js/leaflet-wikipedia.js"></script>
+        <script src="js/searchControl.js"></script>
+        <script src="js/wiki2GeoJSON.js"></script>
+        
+    </head>
+
+    
+    <body>
+        <div id="sidebar"></div>
+        
+        <div id="map" >
+            <script> initmap(); </script>
+        </div>
+        
+        
+    </body>
+</html>
