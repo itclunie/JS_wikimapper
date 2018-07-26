@@ -2,15 +2,6 @@
 //<![CDATA[
 // this variable will collect the html which will eventually be placed in the side_bar 
 
-//PT 32.061106,104.691129
-
-//JK 29.271791,103.083649 *465km
-//EM 29.659424,103.516196 *103km
-//JJ 29.767912,103.491691 *
-//ZG 31.854113,105.265781*
-//TB 34.049907,107.311679 *
-//BT 40.636495,110.013496 *
-//YZ 40.144915,97.243866
 
 var side_bar_html = ""; 
 var gmarkers = [];
@@ -45,8 +36,8 @@ function initialize() {
 
 	var directionsService = new google.maps.DirectionsService(); 
 	var request = { 
-		origin: "32.061106,104.691129",  //lat lon as string
-		destination: "40.144915,97.243866", 
+		origin: "lat,lon",  //lat lon as string
+		destination: "lat,lon", 
 		travelMode: google.maps.DirectionsTravelMode.DRIVING 
 	}; 
 
